@@ -3,7 +3,7 @@
 int main(void)
 {
     printf("Chương trình quy đổi tiền VND sang tiền USD\n");
-    float HANG_SO_QUY_DOI = 26000; //Hằng số quy đổi 1 USD = 26000 VND
+    const float HANG_SO_QUY_DOI = 26000; //Hằng số quy đổi 1 USD = 26000 VND
     float so_tien_VND;
     float so_tien_USD;
 

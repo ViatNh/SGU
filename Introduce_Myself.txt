@@ -1,13 +1,23 @@
 -----
 Họ và tên | Fullname :	Châu Lâm Nhật Vinh
- Lớp 	  | Class    :	DCT1251
- Khoá	  | Academic :	25			 | 25th
- Khoa	  | Faculty  :	Công nghệ thông tin	 | Information Technology
- Trường	  | School   :	Đại học Sài Gòn		 | SaiGon University
+ Khoá	  | Academic :	25						| 25th
+ Khoa	  | Faculty  :	Công nghệ thông tin	 	| Information Technology
+ Trường	  | School   :	Đại học Sài Gòn		 	| SaiGon University
 -----
 * Học kỳ 1:
-	- Cơ sở lập trình 	(841302|10)
+	- Cơ sở lập trình (DCT1251|841302|10)
 		+ Lý thuyết	|	Thầy Trịnh Tấn Đạt << https://sites.google.com/site/ttdat88/
 		+ Thực hành	|	Thầy Nguyễn Quốc Phong
-	- Kiến trúc máy tính 	(841021|02)
-		+ Lý thuyết	|	Thầy Hà Thanh Dũng << 0914100004 << htdung@sgu.edu.vn
+
+	- Kiến trúc máy tính (DCT1251|841021|02)
+		Thầy Hà Thanh Dũng << 0914100004 << htdung@sgu.edu.vn
+
+	- Nhập môn CNTT & Truyền thông (DKP1251|841501|10)
+		Thầy Lương Minh Huấn << https://sites.google.com/site/huanluongsgu/
+
+	- Cấu trúc rời rạc (DNT1251|841403|09)
+		Thầy Nguyễn Hoà
+
+	- Đại số tuyến tính (864007|DKP1251|04)
+		Thầy Phan Hoàng Chơn
+-----
