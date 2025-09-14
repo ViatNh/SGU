@@ -1,6 +1,6 @@
 -----
 Họ và tên | Fullname :	Châu Lâm Nhật Vinh
- Khoá	  | Academic :	25						| 25th
+ Khoá	  | Academic :	25				| 25th
  Khoa	  | Faculty  :	Công nghệ thông tin	 	| Information Technology
  Trường	  | School   :	Đại học Sài Gòn		 	| SaiGon University
 -----
