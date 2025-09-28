@@ -1,5 +1,6 @@
 -----
 Họ và tên | Fullname :	Châu Lâm Nhật Vinh
+ Lớp	  | Class    :	DCT1253
  Khoá	  | Academic :	25
  Khoa	  | Faculty  :	Công nghệ thông tin	 	| Information Technology
  Trường	  | School   :	Đại học Sài Gòn		 	| SaiGon University
