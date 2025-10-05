@@ -1,31 +1,69 @@
 #include <stdio.h>
 
-int main(void)
+void Chan(int n)
 {
-    printf("Chuong trinh dem chan le cua so nguyen duong n\n");
-    unsigned int n, dem_le, dem_chan;
-    int Le = []
-
-    printf("Vui long nhap vao so nguyen duong n: ");
-    scanf("%d", &n);
-
-    for (int i = 0; i <= n; i++)
+    if (n != 0)
     {
-        if (i % 2 == 0)
+        int temp = n;
+        temp %= 10;
+        Chan(n / 10);
+        if (temp % 2 == 0)
+            printf(" %d", temp);
+    }
+}
+
+int Dem_Chan(int n)
+{
+    int dem_chan = 0;
+    for (; n > 0; n /= 10)
+    {
+        int temp = n % 10;
+        if (temp % 2 == 0)
         {
             dem_chan += 1;
-            Chan[i] = i;
-        }
-        else
-        {
-            dem_le += 1;
-            Le[i] = i;
         }
     }
+    return dem_chan;
+}
 
-    printf("%d co %d chu so le: ", n, dem_le, Le);
-    for ()
-    printf("%d co %d chu so chan: %d", n, dem_chan, Chan);
+void Le(int n)
+{
+    if (n != 0)
+    {
+        int temp = n;
+        temp %= 10;
+        Le(n / 10);
+        if (temp % 2 != 0)
+            printf(" %d", temp);
+    }
+}
+
+int Dem_Le(int n)
+{
+    int dem_le = 0;
+    for (; n > 0; n /= 10)
+    {
+        int temp = n % 10;
+        if (temp % 2 == 0)
+        {
+            dem_le += 1;
+        }
+    }
+    return dem_le;
+}
+
+int main(void)
+{
+    printf("Chuong trinh dem so luong chu so le/ chan cua so nguyen duong n\n");
+    int n;
+
+    printf("Nhap vao so nguyen duong n: ");
+    scanf("%d", &n);
+
+    printf("%d co %d chu so chan la", n, Dem_Chan(n));
+    Chan(n);
+    printf("\n%d co %d chu so le la", n, Dem_Le(n));
+    Le(n);
 
     return 0;
 }
