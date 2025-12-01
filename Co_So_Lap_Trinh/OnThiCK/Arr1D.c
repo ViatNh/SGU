@@ -31,7 +31,7 @@ int main(void)
     printf("\n\nPhan tu cua mang sau khi xoa trung:");
     OutputArr1D(Arr1D, n);
 
-    printf("Trung binh cong so le: %.2f", OddAverage(Arr1D, n));
+    printf("\nTrung binh cong so le: %.2f", OddAverage(Arr1D, n));
 
     return 0;
 }
@@ -62,7 +62,7 @@ int Merge(int Arr1D[], int l, int m, int r)
     int k = 0;
 
     while ((i <=  m) && (j <= r)){
-        if (Arr1D[i] <= Arr1D[j]){
+        if (Arr1D[i] <= Arr1D[j]){ // ESC (<=) -- DESC (>=)
             TmpArr[k++] = Arr1D[i++];
         }
         else
@@ -111,9 +111,10 @@ float OddAverage(int Arr1D[], int n)
     int sum, countOdd;
     sum = countOdd = 0;
     for (int i = 0; i < n; i++){
-        if (Arr1D[i] % 2)
+        if (Arr1D[i] % 2){
             sum += Arr1D[i];
             countOdd++;
+        }
     }
     return (1.0 * sum / countOdd);
 }
