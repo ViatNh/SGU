@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 FILE *f; // Kieu du lieu tuong tac voi file
 
@@ -7,15 +8,21 @@ int m = 100; // So luong file
 int datFile[1] = {100}; // So luong data trong moi file
 int n = 1;
 
+/* Tao bo dem gan, so sanh, thoi gian */
+double assign_count, condition_count, time_count;
+
 void swap(long *a, long *b);
 void interchangeSort(long a[], int n, int i, int j);
 
 int main(void)
 {
     for (int i = 0; i < n; i++){ /* So luong du lieu cua file */
-        int arg_1 = datFile[i];
+        int arg_1 = datFile[i]; // Fist file name
+
+        assign_count = condition_count = time_count = 0; // Set bo dem ve 0
+
         for (int j = 0; j < m; j++){ /* So luong file */
-            int arg_2 = j + 1;
+            int arg_2 = j + 1; // Last file name
 
             /* Tao ten file tu 2 bien int */
             char name[20];
@@ -39,7 +46,12 @@ int main(void)
                     exit(0);
             }
             
+            clock_t start = clock();
+
             interchangeSort(A, datFile[i], 0, 1);
+
+            clock_t end = clock();
+            time_count += (double)(end - start) / CLOCKS_PER_SEC; // Thoi gian sort cua moi file
 
             for (int k = 0; k < datFile[i]; k++){
                 fprintf(f, "%ld ", A[k]);
@@ -48,6 +60,10 @@ int main(void)
             fclose(f); // Dong f sau khi mo
             free(A);
         }
+        char summary_name[20];
+        sprintf(summary_name, "summary_%d.csv", arg_1);
+        f = fopen(summary_name, "w");
+        fprintf(f, "%f, %f, %f", assign_count, condition_count, time_count);
     }
 
     return 0;
@@ -56,18 +72,27 @@ int main(void)
 void swap(long *a, long *b)
 {
     long tmp = *a;
+    assign_count++;
     *a = *b;
+    assign_count++;
     *b = tmp;
+    assign_count++;
 }
 
 void interchangeSort(long a[], int n, int i, int j)
 {
-    if (i == n - 1)
+    if (i == n - 1){
+        condition_count++;
         return;
-    if (a[i] > a[j])
+    }
+    if (a[i] > a[j]){
+        condition_count++;
         swap(&a[i], &a[j]);
-    if (j == n - 1)
+    }
+    if (j == n - 1){
+        condition_count++;
         interchangeSort(a, n, i + 1, i + 2);
+    }
     else
         interchangeSort(a, n, i, j + 1);
 }

@@ -6,8 +6,8 @@
 FILE *f; // Kieu du lieu tuong tac voi file
 
 int m = 100; // So luong file
-int datFile[5] = {100, 1000, 10000, 100000, 1000000}; // So luong data trong moi file
-int n = 5;
+int datFile[1] = {100}; // So luong data trong moi file
+int n = 1;
 
 /*
 - Tao 100 file 100_[1->100].txt
