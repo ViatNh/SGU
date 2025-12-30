@@ -5,20 +5,42 @@ Họ và tên | Fullname :	Châu Lâm Nhật Vinh
  Khoa	  | Faculty  :	Công nghệ thông tin	 	| Information Technology
  Trường	  | School   :	Đại học Sài Gòn		 	| SaiGon University
 -----
-* Học kỳ 1:
-	- Cơ sở lập trình (DCT1251|841302|10)
-		+ Lý thuyết	|	Thầy Trịnh Tấn Đạt << https://sites.google.com/site/ttdat88/
-		+ Thực hành	|	Thầy Nguyễn Quốc Phong
+* Học kỳ 1 | 10 tín ngành + 7 tín chung:
+	1. Cơ sở lập trình (DCT1251|841302|10) | 4 tín
+		- Lý thuyết: Thầy Trịnh Tấn Đạt << https://sites.google.com/site/ttdat88/
+		- Thực hành: Thầy Nguyễn Quốc Phong
 
-	- Kiến trúc máy tính (DCT1251|841021|02)
-		Thầy Hà Thanh Dũng << 0914100004 << htdung@sgu.edu.vn
+	2. Kiến trúc máy tính (DCT1251|841021|02) | 3 tín
+		Thầy Hà Thanh Dũng << 0914100004 | htdung@sgu.edu.vn
 
-	- Nhập môn CNTT & Truyền thông (DKP1251|841501|10)
+	3. Nhập môn CNTT & Truyền thông (DKP1251|841501|10) | 3 tín
 		Thầy Lương Minh Huấn << https://sites.google.com/site/huanluongsgu/
 
-	- Cấu trúc rời rạc (DNT1251|841403|09)
+	4. Cấu trúc rời rạc (DNT1251|841403|09) | 4 tín
 		Thầy Nguyễn Hoà
 
-	- Đại số tuyến tính (864007|DKP1251|04)
+    5. Đại số tuyến tính (864007|DKP1251|04) | 3 tín
 		Thầy Phan Hoàng Chơn
 -----
+* Học kỳ 2 | 11 tín ngành + 10 tín chung:
+    1. Cấu trúc dữ liệu và giải thuật (DTU1241|841108|05) | 4 tín
+        Thầy Phạm Thế Bảo
+
+    2. Kỹ thuật lập trình (DCT1252|841303|02) | 4 tín
+        - Lý thuyết: Thầy Phan Tấn Quốc
+        - Thực hành: Thầy Nguyễn Trung Tín
+
+    3. Mạng máy tính (DCT1255|841404|05) | 3 tín
+        Thầy Cổ Tồn Minh Đăng
+
+    4. Xác suất thống kê (864508|02) | 3 tín
+        Thầy Trần Thanh Bình
+
+    5. Tiếng Anh 1 (866401|12) | 3 tín
+        Cô Nguyễn Hồng Quỳnh Như
+
+    6. Triết học Mác - Lênin (861301|09) | 3 tín
+        Cô Vũ Thị Gấm
+
+    7. Giáo dục thể chất (I) (862101|42) | 1 tín
+        Cô Tô Thị Hương
