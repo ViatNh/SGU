@@ -5,8 +5,12 @@
 FILE *f; // Kieu du lieu tuong tac voi file
 
 int m = 100; // So luong file
-int datFile[1] = {100}; // So luong data trong moi file
-int n = 1;
+/*
+So luong data trong moi file
+datFile val khong lon hon 500
+*/
+int datFile[] = {100, 500};
+int n = 2;
 
 /* Tao bo dem gan, so sanh, thoi gian */
 double assign_count, condition_count, time_count;
@@ -60,10 +64,9 @@ int main(void)
             fclose(f); // Dong f sau khi mo
             free(A);
         }
-        char summary_name[20];
-        sprintf(summary_name, "summary_%d.csv", arg_1);
-        f = fopen(summary_name, "w");
-        fprintf(f, "%f, %f, %f", assign_count, condition_count, time_count);
+
+        f = fopen("summary.csv", "a");
+        fprintf(f, "%d, %f, %f, %f\n", arg_1, assign_count, condition_count, time_count);
     }
 
     return 0;
