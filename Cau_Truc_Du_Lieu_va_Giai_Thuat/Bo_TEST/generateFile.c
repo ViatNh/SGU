@@ -36,8 +36,8 @@ int main(void)
             sprintf(name, "%d_%d.txt", arg_1, arg_2);
             f = fopen(name, "w");
             if (!f){ // Xu ly sau khi mo
-                    printf("Can't open a file\n");
-                    exit(0);
+                printf("Can't open a file\n");
+                exit(0);
             }
 
             for (int k = 0; k < datFile[i]; k++){ /* So luong random */
