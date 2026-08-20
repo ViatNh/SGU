@@ -20,7 +20,7 @@ import java.util.List;
 // lương và loại C không có thưởng.
 
 class NhanVien {
-    // Contributes
+    // Attributes
     private String mnv, hoten;
     private int cong;
     private String loai;
